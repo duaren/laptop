@@ -173,3 +173,22 @@ button {
         opacity: 0.3;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .nav-link {
+        font-size: 16px;
+        padding-right: 5px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-link {
+        font-size: 14px;
+        padding-right: 5px;
+        
+    }
+    .logo {
+        font-size: 14px;
+    }
+}
